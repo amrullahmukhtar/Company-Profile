@@ -1,6 +1,7 @@
 import { PinContainer } from "../components/ui/3d-pin";
 import Testimonial from "../app/_component/testimonial";
 
+
 export default function Home() {
   return (
     <main className='bg-[url("https://images.pexels.com/photos/14285341/pexels-photo-14285341.jpeg")] bg-center'>

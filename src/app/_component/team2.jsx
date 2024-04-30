@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import React from "react";
 import {
   Carousel,
@@ -41,7 +39,7 @@ export function Team({ data }) {
   return (
     <>
       <div className=" min-w-40 w-[250px] md:my-5 bg-white flex flex-col items-center rounded-xl m-auto">
-        <Image
+        <img
           className="w-[200px]  my-5 aspect-square object-top object-cover rounded-xl"
           src={picture.large}
           alt=""

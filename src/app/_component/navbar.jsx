@@ -1,7 +1,6 @@
 "use client";
 
 
-import Image from 'next/image';
 
 import { useState } from "react";
 
@@ -12,7 +11,7 @@ const Navbar = () => {
     <nav className="bg-white px-5 md:px-10 py-1 sticky top-0 z-40 ">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
-          <Image className="h-10" src="/logo.png" alt="Logo" />
+          <img className="h-10" src="/logo.png" alt="Logo" />
         </div>
         
 
@@ -43,7 +42,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center align-middle justify-center text-center">
           <div className=" max-w-4 mr-2 flex items-center justify-center">
-            <Image className="" src="/call1.png" />
+            <img className="" src="/call1.png" />
           </div>
           <p className="text-sm p-0" href="/">
             021-2220325
