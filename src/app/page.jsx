@@ -4,7 +4,7 @@ import Testimonial from "../app/_component/testimonial";
 
 export default function Home() {
   return (
-    <main className='bg-[url("https://images.pexels.com/photos/14285341/pexels-photo-14285341.jpeg")] bg-center'>
+    <main className="bg-center">
       <div className="bg-[rgba(255,255,255,0.7)]  px-1 md:px-5 lg:px-10 ">
         <div className="flex h-full justify-between p-5 ">
           <div className="flex h-full flex-col pr-2 gap-10 ">

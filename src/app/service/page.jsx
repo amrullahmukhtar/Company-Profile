@@ -1,11 +1,11 @@
 import React from "react";
-import "./service.css";
+import "../service/service.css";
 import { SparklesCore } from "../../components/ui/sparkles";
 import TabService from "../_component/tab";
 
 export default function page() {
   return (
-    <div className='h-[1500px] md:h-[1200px] bg-[url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg")]'>
+    <div className="service h-[1500px] md:h-[1200px] bg-center">
       <div className=' bg-[rgba(255,255,255,0.7)] h-[1500px] md:h-[1200px]'>
 
       <div className="h-[10rem] relative w-full bg-black flex gap-4 flex-col items-center justify-center overflow-hidden">

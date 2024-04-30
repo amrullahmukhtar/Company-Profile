@@ -23,7 +23,7 @@ export default function about_us() {
         </h1>
 
       </div>
-      <div className='bg-[url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg")]'>
+      <div className="about">
         <div className="px-[40px] bg-[rgba(255,255,255,0.7)]  md:px-[80px] lg:px-[100px] ">
           <div className="item-center flex flex-col">
             <h2 className="text-5xl py-5 font-bold font-serif">

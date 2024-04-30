@@ -2,11 +2,13 @@ import React from "react";
 import TeamList from "../_component/team";
 import TeamList2 from "../_component/team2";
 import { SparklesCore } from "../../components/ui/sparkles";
+import "../team/team.css";
+
 
 
 export default function team() {
   return (
-    <div className='bg-[url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg")]'>
+    <main>
       <div className="bg-[rgba(255,255,255,0.7)]">
       <div className="h-[10rem] relative w-full bg-black flex gap-4 flex-col items-center justify-center overflow-hidden">
         <div className="w-full absolute inset-0 h-screen">
@@ -37,6 +39,6 @@ export default function team() {
       <TeamList2 />
       </div>
       </div>
-    </div>
+    </main>
   );
 }
