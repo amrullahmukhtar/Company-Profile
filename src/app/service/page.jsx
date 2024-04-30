@@ -25,8 +25,8 @@ export default function page() {
         </h1>
       </div>
 
-          <div className="px-[40px] md:px-[80px] lg:px-[100px] h-[200px] mx-10">
-            <div>
+          <div className="h-[200px] mx-5">
+            <div className="">
               <TabService />
             </div>
           </div>{" "}
