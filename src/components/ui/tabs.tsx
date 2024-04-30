@@ -40,7 +40,7 @@ export const Tabs = ({
     <>
       <div
         className=
-          "flex flex-wrap  overflow-x-auto w-full justify-center gap-5"
+          "flex flex-wrap  overflow-x-auto w-full justify-center gap-5 pb-10 "
       >
         {propTabs.map((tab, idx) => (
           <button
@@ -50,8 +50,8 @@ export const Tabs = ({
             }}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className="justify-center  font-bold  overflow-hidden w-20 flex h-20  "
-            style={{
+            className="justify-center relative font-bold  overflow-hidden w-20 flex h-20 rounded-full "
+            style={{ background:"whitesmoke", padding:"0px 10px",
               transformStyle: "preserve-3d",
             }}
           >
@@ -60,7 +60,7 @@ export const Tabs = ({
                 layoutId="clickedbutton"
                 transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
                 className=
-                  "absolute inset-0 text-wrap bg-gray-400 dark:bg-zinc-800 rounded-full "
+                  "absolute text-wrap bg-gray-400 dark:bg-zinc-800 rounded-full "
               />
             )}
  
