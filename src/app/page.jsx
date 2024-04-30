@@ -1,5 +1,7 @@
 import { PinContainer } from "../components/ui/3d-pin";
 import Testimonial from "../app/_component/testimonial";
+import Image from 'next/image';
+
 
 export default function Home() {
   return (
@@ -15,26 +17,27 @@ export default function Home() {
               Success Starts Here."
             </p>
             <div className="flex bg-emerald-500 rounded-full px-2 h-[50px] max-w-[250px] items-center justify-center animate-pulse z-1">
-              <img className="h-4 pr-2" src="/wa.svg" alt="WhatsApp" />
+              <img className="h-4 pr-2" src="/wa.svg" alt="WhatsApp Icon" />
               <a className="text-xs md:text-base" href="#">
-                {" "}
                 Whatsapp for consultant
-              </a>{" "}
+              </a>
             </div>
             <p className="text-xs">Start your business with us now!</p>
           </div>
           <div className="max-w-[800px] min-w-[150px]">
-            <img
-              className="rounded-md"
+            <Image
               src="https://storage.googleapis.com/ekrutassets/blogs/images/000/002/874/original/konsultan-keuangan-EKRUT.jpg"
               alt="AM Consultant Image"
+              width={800}
+              height={500}
+              className="rounded-md"
             />
           </div>
           <span></span>
         </div>
         <div className="flex h-full flex-col p-5 mt-10 justify-center text-center gap-5">
           <p className="h-full text-3xl font-bold">
-            "Transforming Visions into Reality"{" "}
+            "Transforming Visions into Reality"
           </p>
           <div className="flex flex-wrap justify-center">
             <div className="h-[30rem] w-[30rem] flex items-center justify-center">
@@ -52,7 +55,12 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"></div>
-                  <img src="https://asset.kompas.com/crops/DeBHHemYp-_IQL3VssioxUmIr1o=/0x0:900x600/750x500/data/photo/2022/12/10/63942b048a4b5.jpg" alt="Sri Mulyani Image" />
+                  <Image
+                    src="https://asset.kompas.com/crops/DeBHHemYp-_IQL3VssioxUmIr1o=/0x0:900x600/750x500/data/photo/2022/12/10/63942b048a4b5.jpg"
+                    alt="Sri Mulyani Image"
+                    width={300}
+                    height={200}
+                  />
                 </div>
               </PinContainer>
             </div>
@@ -71,7 +79,12 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"></div>
-                  <img src="https://images.pexels.com/photos/3790811/pexels-photo-3790811.jpeg" alt="Business Consultant Image" />
+                  <Image
+                    src="https://images.pexels.com/photos/3790811/pexels-photo-3790811.jpeg"
+                    alt="Business Consultant Image"
+                    width={300}
+                    height={200}
+                  />
                 </div>
               </PinContainer>
             </div>
@@ -84,7 +97,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row lg:gap-2">
             <div className="flex h-full flex-col lg:w-[450px] items-center text-center gap-5">
               <div className="max-w-[100px]">
-                <img src="/document.png" alt="Document Icon" />
+                <Image src="/document.png" alt="Document Icon" width={100} height={100} />
               </div>
               <h3 className="text-3xl font-bold"> 1. Dokumen</h3>
               <span className="tracking-wide mb-5">
@@ -94,7 +107,7 @@ export default function Home() {
             </div>
             <div className="flex h-full flex-col lg:w-[450px] items-center text-center gap-5">
               <div className="max-w-[100px]">
-                <img src="/computer.png" alt="Computer Icon" />
+                <Image src="/computer.png" alt="Computer Icon" width={100} height={100} />
               </div>
               <h3 className="text-3xl font-bold"> 2. proses</h3>
               <span className="tracking-wide mb-5">
@@ -105,7 +118,7 @@ export default function Home() {
             </div>
             <div className="flex h-full flex-col lg:w-[450px] items-center text-center gap-5">
               <div className="max-w-[100px]">
-                <img src="/report.png" alt="Report Icon" />
+                <Image src="/report.png" alt="Report Icon" width={100} height={100} />
               </div>
               <h3 className="text-3xl font-bold"> 3. Report</h3>
               <span className="tracking-wide mb-5">
