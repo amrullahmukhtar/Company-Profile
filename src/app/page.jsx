@@ -2,7 +2,6 @@ import { PinContainer } from "../components/ui/3d-pin";
 import Testimonial from "../app/_component/testimonial";
 import Image from 'next/image';
 
-
 export default function Home() {
   return (
     <main className="bg-center">
@@ -13,8 +12,8 @@ export default function Home() {
               AM Consultant
             </h1>
             <p className="text-sm md:text-base lg:w-[600px]">
-              "Elevating Businesses with Strategic Consultation: Your Path to
-              Success Starts Here."
+              &quot;Elevating Businesses with Strategic Consultation: Your Path to
+              Success Starts Here.&quot;
             </p>
             <div className="flex bg-emerald-500 rounded-full px-2 h-[50px] max-w-[250px] items-center justify-center animate-pulse z-1">
               <img className="h-4 pr-2" src="/wa.svg" alt="WhatsApp Icon" />
@@ -37,7 +36,7 @@ export default function Home() {
         </div>
         <div className="flex h-full flex-col p-5 mt-10 justify-center text-center gap-5">
           <p className="h-full text-3xl font-bold">
-            "Transforming Visions into Reality"
+            &quot;Transforming Visions into Reality&quot;
           </p>
           <div className="flex flex-wrap justify-center">
             <div className="h-[30rem] w-[30rem] flex items-center justify-center">
@@ -50,7 +49,7 @@ export default function Home() {
                     <span className="text-slate-500">
                       Pada tahun 2009, Sri Mulyani, seorang ahli ekonomi
                       terkemuka yang telah lama berkarir di dunia keuangan dan
-                      pemerintahan, merasa bahwa saatnya telah tiba..{" "}
+                      pemerintahan, merasa bahwa saatnya telah tiba..{' '}
                       <a href="/aboutUs">(More..)</a>
                     </span>
                   </div>
@@ -74,7 +73,7 @@ export default function Home() {
                     <span className="text-slate-500">
                       Konsultan Bisnis adalah orang yang profesional, kompeten
                       secara ilmiah dan memiliki pengalaman di Industri Bisnis
-                      yang bertujuan untuk membantu Anda..{" "}
+                      yang bertujuan untuk membantu Anda..{' '}
                       <a href="/service">(More..)</a>
                     </span>
                   </div>
