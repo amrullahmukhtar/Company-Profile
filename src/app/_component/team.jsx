@@ -1,30 +1,32 @@
 import React from 'react'
+import Image from 'next/image';
+
 
 export default function TeamList() {
     const team = [
       {
         name: "Sri Mulyani Indrawati, S.E., M.Sc., Ph.D",
-        img_url:"https://upload.wikimedia.org/wikipedia/commons/3/39/Finance_Ministry_Sri_Mulyani_Indrawati_2016.jpg",
+        Image_url:"https://upload.wikimedia.org/wikipedia/commons/3/39/Finance_Ministry_Sri_Mulyani_Indrawati_2016.jpg",
         jabatan: "CEO & Founder",
       },
       {
         name: "Perry Warjiyo, S.E., M.Sc., Ph.D. ",
-        img_url:"https://upload.wikimedia.org/wikipedia/commons/4/45/Perry_Warjiyo%2C_Governor_of_Bank_Indonesia.jpg",
+        Image_url:"https://upload.wikimedia.org/wikipedia/commons/4/45/Perry_Warjiyo%2C_Governor_of_Bank_Indonesia.jpg",
           jabatan: "COO & CO Founder",
       },
       {
         name: "Dr. Isma Yatun, CSFA., CFrA.",
-        img_url:"https://upload.wikimedia.org/wikipedia/commons/b/b2/Isma_Yatun.jpg",
+        Image_url:"https://upload.wikimedia.org/wikipedia/commons/b/b2/Isma_Yatun.jpg",
         jabatan: "Comissioner & CO-Founder",
       },
       {
         name: "Rafael Alun Trisambodo, S.E., M.Si.",
-        img_url:"https://asset.kompas.com/crops/8ukC52Zob-Zrbp7QQamS-fQOTMw=/0x0:0x0/750x500/data/photo/2023/04/03/642ab6a077f35.jpg",
+        Image_url:"https://asset.kompas.com/crops/8ukC52Zob-Zrbp7QQamS-fQOTMw=/0x0:0x0/750x500/data/photo/2023/04/03/642ab6a077f35.jpg",
         jabatan: "Support Manager",
       },
       {
         name: "Harvey Moei",
-        img_url:"https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/01/2024/04/02/47_kejagung-1707438543.jpg",
+        Image_url:"https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/01/2024/04/02/47_kejagung-1707438543.jpg",
         jabatan: "Business Manager",
       },
 
@@ -38,12 +40,12 @@ export default function TeamList() {
     );
   }
   
-  export function Team({ name, img_url, jabatan }) {
+  export function Team({ name, Image_url, jabatan }) {
     return (
     <div className="m-3 min-w-40 w-[250px] bg-white flex flex-col items-center rounded-xl ">
-        <img
+        <Image
           className="max-w-[200px] my-5 aspect-square object-top object-cover rounded-xl"
-          src={img_url}
+          src={Image_url}
           alt=""         
         />
         <hr className='border-grey-200 border-solid border-2 w-full' />

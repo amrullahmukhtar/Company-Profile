@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 
 import { Tabs } from "../../components/ui/tabs";
 
@@ -12,7 +13,7 @@ export default function TabService() {
           <span className=" text-3xl">Jasa Pembukuan</span>
           <div className="flex w-full justify-center ">
           
-          <img className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/3791185/pexels-photo-3791185.jpeg" alt="" />
+          <Image className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/3791185/pexels-photo-3791185.jpeg" alt="" />
           </div>
           <p className="text-left text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl ">
             {" "}
@@ -32,7 +33,7 @@ export default function TabService() {
           <span className=" text-3xl">Jasa Admin Keuangan</span>
           <div className="flex w-full justify-center ">
           
-          <img className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/3783879/pexels-photo-3783879.jpeg" alt="" />
+          <Image className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/3783879/pexels-photo-3783879.jpeg" alt="" />
           </div>
           <p className="text-left text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl ">
             {" "}
@@ -51,7 +52,7 @@ export default function TabService() {
           <span className=" text-3xl">Jasa Pajak</span>
           <div className="flex w-full justify-center ">
           
-          <img className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg" alt="" />
+          <Image className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg" alt="" />
           </div>
           <p className="text-left text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl ">
             {" "}
@@ -73,7 +74,7 @@ export default function TabService() {
             <span className=" text-3xl">Jasa Payroll</span>
             <div className="flex w-full justify-center ">
             
-            <img className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/4475523/pexels-photo-4475523.jpeg" alt="" />
+            <Image className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/4475523/pexels-photo-4475523.jpeg" alt="" />
             </div>
             <p className="text-left text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl ">
               {" "}
@@ -94,7 +95,7 @@ export default function TabService() {
             <span className=" text-3xl">Kelas Pelatihan</span>
             <div className="flex w-full justify-center ">
             
-            <img className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/8761559/pexels-photo-8761559.jpeg" alt="" />
+            <Image className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/8761559/pexels-photo-8761559.jpeg" alt="" />
             </div>
             <p className="text-left text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl ">
               {" "}
@@ -113,7 +114,7 @@ export default function TabService() {
             <span className=" text-3xl">Pengurusan Izin Badan Usaha</span>
             <div className="flex w-full justify-center ">
             
-            <img className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/3790811/pexels-photo-3790811.jpeg" alt="" />
+            <Image className="max-w-[400px] min-w-[150px] rounded-xl" src="https://images.pexels.com/photos/3790811/pexels-photo-3790811.jpeg" alt="" />
             </div>
             <p className="text-left text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl ">
               {" "}
