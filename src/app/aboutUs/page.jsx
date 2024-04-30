@@ -25,9 +25,7 @@ export default function AboutUs() {
       </div>
       <div className="about-content px-[40px] bg-[rgba(255,255,255,0.7)] md:px-[80px] lg:px-[100px]">
         <div className="item-center flex flex-col">
-          <h2 className="text-5xl py-5 font-bold font-serif">
-            AM Consultant
-          </h2>
+          <h2 className="text-5xl py-5 font-bold font-serif">AM Consultant</h2>
           <div className="flex gap-5">
             <p className="text-sm md:text-lg">
               AM Consultant adalah Professional Integrated Business Consulting
@@ -110,9 +108,10 @@ export default function AboutUs() {
             </div>
             <div className="my-20">
               <span className="text-2xl text-center font-bold my-10">
-                We Don't Say We Are The Best, But You Will Get The Best
+                We Don&rsquo;t Say We Are The Best, But You Will Get The Best
                 Service.
               </span>
+
               <div className="gap-5 flex my-10">
                 <p className="max-w-[700px] text-sm md:text-lg ">
                   AM Consultant menjadi solusi yang Tepat, karena kami tidak
@@ -140,10 +139,10 @@ export default function AboutUs() {
                 seluruh Indonesia.
               </p>
               <p className="mb-5 text-sm md:text-lg text-justify">
-                AM Consultant dengan cepat menjadi sorotan dalam dunia
-                konsultan keuangan dan ekonomi. Berkat reputasi Sri Mulyani
-                yang luar biasa, perusahaan ini mendapatkan kepercayaan dari
-                berbagai klien terkemuka di berbagai belahan dunia.
+                AM Consultant dengan cepat menjadi sorotan dalam dunia konsultan
+                keuangan dan ekonomi. Berkat reputasi Sri Mulyani yang luar
+                biasa, perusahaan ini mendapatkan kepercayaan dari berbagai
+                klien terkemuka di berbagai belahan dunia.
               </p>
             </div>
           </div>
