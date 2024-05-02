@@ -106,13 +106,13 @@ export default function AboutUs() {
               />
               {/* Tambahkan gambar-gambar lain di sini */}
             </div>
-            <div className="my-20">
+            <div className="my-20 flex justify-center flex-col">
               <span className="text-2xl text-center font-bold my-10">
                 We Don&rsquo;t Say We Are The Best, But You Will Get The Best
                 Service.
               </span>
 
-              <div className="gap-5 flex my-10">
+              <div className="gap-5 flex my-10 w-full justify-center">
                 <p className="max-w-[700px] text-sm md:text-lg ">
                   AM Consultant menjadi solusi yang Tepat, karena kami tidak
                   hanya mampu menguasai teoritis namun juga terbukti

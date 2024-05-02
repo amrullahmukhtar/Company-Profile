@@ -5,9 +5,9 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="bg-center">
-      <div className="bg-[rgba(255,255,255,0.7)] px-1 md:px-5 lg:px-10">
-        <div className="flex h-full justify-between p-5">
-          <div className="flex h-full flex-col pr-2 gap-10">
+      <div className="bg-[rgba(255,255,255,0.7)] px-1 md:px-5 lg:px-10 flex h-full justify-center flex-col">
+        <div className="flex h-full justify-center p-5 ">
+          <div className="flex h-full flex-col pr-2 gap-10 ">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
               AM Consultant
             </h1>
@@ -93,7 +93,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold">
             How Does AM Consultant Indonesia Works
           </h2>
-          <div className="flex flex-col lg:flex-row lg:gap-2">
+          <div className="flex flex-col lg:flex-row lg:gap-2 w-full justify-center">
             <div className="flex h-full flex-col lg:w-[450px] items-center text-center gap-5">
               <div className="max-w-[100px]">
                 <Image src="/document.png" alt="Document Icon" width={100} height={100} />

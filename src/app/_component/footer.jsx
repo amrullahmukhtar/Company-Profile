@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="bg-zinc-800 px-5 md:px-10 pt-10 absolute">
+    <div className="bg-zinc-800 px-5 md:px-10 pt-10 absolute w-full">
       <div className="flex flex-col gap-3 text-start text-sm text-stone-300 md:text-base lg:text-lg">
         <div className="flex items-center">
           <Image
@@ -54,7 +54,7 @@ export default function Footer() {
           <HoverBorderGradient
             containerClassName="rounded-full"
             as="button"
-            className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+            className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 z-10 rounded-full"
           >
             <Image src="wa.svg" alt="WhatsApp Icon" width={50} height={50} />
             <span>Contact us</span>
